@@ -1,0 +1,37 @@
+# Title for the blog
+title: My Blog
+# Your display name
+author: Developer
+# All posts will be attributed to this username, unless overridden in post front matter
+github_username: jekyll
+description: > # ">" means ignore newlines
+  Hello! I am a Developer and this is my blog. I write about technology.
+
+# Create a new site in BytHub Dashboard and paste the site_id here
+# This will link your published Jekyll site to BytHub
+bythub_site_id: xxxx-xxxx-xxxx-xxxx-xxxx
+
+# set to false to hide tech stack in the footer
+show_tech_stack_in_footer: true
+
+# Link to pages in your header
+# The path to the pages in order as they should show up
+header_pages:
+  - pages/about.md
+  - pages/contact.md
+
+#
+# Build settings
+#
+
+# Use BytHub Jekyll theme from https://github.com/bythub-app/jekyll-theme-bythub
+remote_theme: bythub-app/jekyll-theme-bythub
+
+# Plugins to use
+# Available plugins: https://pages.github.com/versions/
+# Note: jekyll-sitemap plugin is required for BytHub to function properly
+plugins:
+ - jekyll-remote-theme
+ - jekyll-feed
+ - jekyll-seo-tag
+ - jekyll-sitemap
